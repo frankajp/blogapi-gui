@@ -1,0 +1,15 @@
+{
+  "name": "blogapi-gui",
+  "version": "1.0.0",
+  "description": "Diplomado JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank J.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
