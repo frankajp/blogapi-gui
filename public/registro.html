@@ -1,8 +1,8 @@
-<html> 
+<html>
 
 <head>
-    <script src="env.js" ></script>
-    <script src="indexx.js" ></script>
+    <script src="env.js"></script>
+    <script src="registrar.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -14,28 +14,24 @@
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    
 </head>
+
+
 <body>
     <div class="container">
         <br>
-    <h1> BlogAPI GUI - Inicio de Session </h1>
+    <h1> BlogAPI GUI - Registrarse </h1>
     <br>
     <div class="row"></div>
     <form>
-
+        <label> Nombre</label>
+        <input type="text" id="nombre" aria-describedby="textHelper" placeholder="Nombre + Apellido" />
         <label>Correo</label>
         <input type="email" id="correo" aria-describedby="emailHelper" placeholder="user@blogapi.com" />
-        <br>
-        <br>
         <label> Contrasena</label>
-        <input type="password" id="contrasena" aria-describedby="passwordHelper" placeholder="********"  />
-        <br>
-        <br>
-        <a href="registro.html">Registrar</a>
-        <input type="button" value="Enviar" id = "envios" class="btn btn-primary" />
-        <br>
-        <br>
-        <a href="mostrar.html">Visualizar Artículos (post).</a>
+        <input type="password" id="contrasena" aria-describedby="passwordHelper" placeholder="********" />
+        <input type="button" value="Guardar" id="registro" class="btn btn-primary" />
     </form>
 </body>
 
